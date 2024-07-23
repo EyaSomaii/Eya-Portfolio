@@ -1445,69 +1445,70 @@
       </div>
     </main>
 
-    <!-- blog details modal -->
+    <!-- blog details modal  chat -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
       <div class="modal-dialog">
-        <div class="modal-content">
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-          <!-- modal content start -->
-          <div class="blog-single-post-listing">
-            <div class="thumbnail">
-              <video controls autoplay>
-                <source
-                  src="./assets/videos/VideoBalDeProjetDevXperts.mp4"
-                  type="video/mp4"
-                />
-              </video>
-            </div>
-            <div class="blog-listing-content">
-              <h3 class="title animated fadeIn">
-                Event Management Platform for Groupe Esprit
-              </h3>
-              <p class="disc para-1">
-                Developed a sophisticated web platform to manage the forum day
-                of Groupe Esprit, including the management of stands, packages,
-                internship offers, and job opportunities.
-              </p>
-              <p class="disc">
-                Package & auction managements​ <br />
-                2D Booth & service management ​ <br />Classroom & appointment
-                management ​ <br />FeedBacks & complaint management ​
-                <br />Offer & application management ​ with matching cv with
-                offers
-              </p>
-              <!-- quote area start -->
-              <div class="rts-quote-area text-center">
-                <h5 class="title">
-                  “ Technologies: SpringBoot | Angular | Jira | Git |
-                  Microservices.”
-                </h5>
-                <a
-                  href="https://github.com/Dhafer99/DevXpertsProject"
-                  target="https://github.com/Dhafer99/DevXpertsProject"
-                  >Open in Github</a
-                >
+          <div class="modal-content">
+              <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+              ></button>
+              <!-- modal content start -->
+              <div class="blog-single-post-listing">
+                  <div class="thumbnail video-container">
+                      <video id="modalVideo" controls autoplay>
+                          <source
+                              src="./assets/videos/VideoBalDeProjetDevXperts.mp4"
+                              type="video/mp4"
+                          />
+                      </video>
+                  </div>
+                  <div class="blog-listing-content">
+                      <h3 class="title animated fadeIn">
+                          Event Management Platform for Groupe Esprit
+                      </h3>
+                      <p class="disc para-1">
+                          Developed a sophisticated web platform to manage the forum day
+                          of Groupe Esprit, including the management of stands, packages,
+                          internship offers, and job opportunities.
+                      </p>
+                      <p class="disc">
+                          Package & auction managements​ <br />
+                          2D Booth & service management ​ <br />Classroom & appointment
+                          management ​ <br />FeedBacks & complaint management ​
+                          <br />Offer & application management ​ with matching cv with
+                          offers
+                      </p>
+                      <!-- quote area start -->
+                      <div class="rts-quote-area text-center">
+                          <h5 class="title">
+                              “ Technologies: SpringBoot | Angular | Jira | Git |
+                              Microservices.”
+                          </h5>
+                          <a
+                              href="https://github.com/Dhafer99/DevXpertsProject"
+                              target="https://github.com/Dhafer99/DevXpertsProject"
+                              >Open in Github</a
+                          >
+                      </div>
+                  </div>
               </div>
-            </div>
+              <!-- modal content end -->
+              <div class="modal-footer">
+                  <button
+                      type="button"
+                      class="rts-btn btn-main"
+                      data-bs-dismiss="modal"
+                  >
+                      Close
+                  </button>
+              </div>
           </div>
-          <!-- modal content end -->
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="rts-btn btn-main"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-          </div>
-        </div>
       </div>
-    </div>
+  </div>
+  
     <!-- blog details modal ene -->
     <!-- blog 2 modal -->
     <div class="modal fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
@@ -1521,8 +1522,8 @@
           ></button>
           <!-- modal content start -->
           <div class="blog-single-post-listing">
-            <div class="thumbnail">
-              <video controls autoplay width="850x" height="500px">
+            <div class="thumbnail video-container ">
+              <video id="modalVideo" controls autoplay width="850x" height="500px">
                 <source
                   src="./assets/videos/HighBrow 3A7-FastRent (1).mp4"
                   type="video/mp4"
@@ -1596,8 +1597,8 @@
           ></button>
           <!-- modal content start -->
           <div class="blog-single-post-listing">
-            <div class="thumbnail">
-              <video controls autoplay width="850x" height="500px">
+            <div class="thumbnail video-container">
+              <video id="modalVideo" controls autoplay width="850x" height="500px">
                 <source
                   src="./assets/videos/e-learningPlateforme.mp4"
                   type="video/mp4"
@@ -1665,8 +1666,8 @@
           ></button>
           <!-- modal content start -->
           <div class="blog-single-post-listing">
-            <div class="thumbnail">
-              <video controls autoplay width="850x" height="500px">
+            <div class="thumbnail video-container">
+              <video id="modalVideo" controls autoplay width="850x" height="500px">
                 <source
                   src="./assets/videos/intanetGestionUserEtTache.mp4"
                   type="video/mp4"
@@ -1723,7 +1724,7 @@
           ></button>
           <!-- modal content start -->
           <div class="blog-single-post-listing">
-            <div class="thumbnail">
+            <div class="thumbnail video-container">
               
                 <img
                   src="./assets/img/eyaPics/tutto2.png"
@@ -1838,6 +1839,8 @@
     <!-- Scripts-->
   </body>
   <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/vide.js"></script>
+
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
   <!-- gsap area start -->
   <script src="./assets/js/gsap.js"></script>
