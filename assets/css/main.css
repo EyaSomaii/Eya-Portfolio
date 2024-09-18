@@ -50,6 +50,17 @@
   max-width: 100%;
   background: #000;
 }
+.single-skill {
+  display: flex;
+  align-items: center; /* Aligne verticalement l'image et le texte */
+  margin-bottom: 20px; /* Espace entre chaque skill */
+}
+
+.skill-logo {
+  width: 50px; /* Ajustez la taille des logos si nécessaire */
+  height: auto;
+  margin-right: 20px; /* Espace entre l'image et le texte */
+}
 
 .video-container video {
   position: absolute;
