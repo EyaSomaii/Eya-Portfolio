@@ -50,6 +50,70 @@
   max-width: 100%;
   background: #000;
 }
+.tech-stack-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.skills-section {
+  padding: 50px 0;
+}
+
+.skills-box {
+  background-color: #20232a;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.single-skill {
+  width: 120px;
+  text-align: center;
+}
+
+.skill-logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: #61dafb;
+  font-size: 16px;
+}
+
+.section-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.section-title span {
+  color: #61dafb;
+}
+
+.tech-box {
+  border: 2px solid red; /* Red border */
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white; /* White text */
+  background-color: transparent; /* No background color */
+  box-shadow: none; /* Remove shadow */
+}
 .single-skill {
   display: flex;
   align-items: center; /* Aligne verticalement l'image et le texte */
@@ -59,7 +123,7 @@
 .skill-logo {
   width: 50px; /* Ajustez la taille des logos si nécessaire */
   height: auto;
-  margin-right: 20px; /* Espace entre l'image et le texte */
+  margin-right: 5px; /* Espace entre l'image et le texte */
 }
 
 .video-container video {
