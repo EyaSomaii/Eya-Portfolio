@@ -103,6 +103,12 @@ h4 {
 .section-title span {
   color: #61dafb;
 }
+.couverture {
+  background-image: url('../img/eyaPics/eya1R.png');
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
 
 .tech-box {
   border: 2px solid red; /* Red border */
